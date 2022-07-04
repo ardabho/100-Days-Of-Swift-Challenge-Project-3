@@ -13,6 +13,7 @@
 		777F55932873063F0006B1FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777F55912873063F0006B1FE /* Main.storyboard */; };
 		777F5595287306410006B1FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777F5594287306410006B1FE /* Assets.xcassets */; };
 		777F5598287306410006B1FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777F5596287306410006B1FE /* LaunchScreen.storyboard */; };
+		777F55A0287309880006B1FE /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 777F559F287309880006B1FE /* words.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		777F5594287306410006B1FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		777F5597287306410006B1FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		777F5599287306410006B1FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777F559F287309880006B1FE /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				777F5594287306410006B1FE /* Assets.xcassets */,
 				777F5596287306410006B1FE /* LaunchScreen.storyboard */,
 				777F5599287306410006B1FE /* Info.plist */,
+				777F559F287309880006B1FE /* words.txt */,
 			);
 			path = "100 Days Of Swift-Challenge Project 3";
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			files = (
 				777F5598287306410006B1FE /* LaunchScreen.storyboard in Resources */,
 				777F5595287306410006B1FE /* Assets.xcassets in Resources */,
+				777F55A0287309880006B1FE /* words.txt in Resources */,
 				777F55932873063F0006B1FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +297,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,6 +326,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
