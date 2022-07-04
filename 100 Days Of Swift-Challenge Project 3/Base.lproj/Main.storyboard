@@ -20,11 +20,11 @@
                                 <rect key="frame" x="20" y="144" width="335" height="198"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Word" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bsA-V5-pCn">
-                                        <rect key="frame" x="147" y="0.0" width="41" height="50"/>
+                                        <rect key="frame" x="131" y="0.0" width="73.5" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="7Wf-4F-hsJ"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>

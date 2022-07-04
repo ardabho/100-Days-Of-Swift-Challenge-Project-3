@@ -60,18 +60,18 @@ class ViewController: UIViewController {
     
     ///Submit a letter.
     @IBAction func submitClicked(_ sender: UIButton) {
-        if let inputText = userInputText.text {
+        if let inputText = userInputText.text?.lowercased() {
             guard (inputText.count == 1) else { return } //Check if input size is 1
             
-            if usedLetters.contains(Character(inputText)) { // Checks if the letter is used before
+            if usedLetters.contains(Character(inputText.lowercased())) { // Checks if the letter is used before
                 let ac = UIAlertController(title: "Oops!", message: "Letter already used", preferredStyle: .alert)
                 ac.addAction(UIAlertAction(title: "OK", style: .default))
                 present(ac, animated: true)
             } else {
-                if !currentWord.contains(Character(inputText)){
+                if !currentWord.contains(Character(inputText.lowercased())){
                     guessCount += 1
                 }
-                usedLetters.append(Character(inputText))
+                usedLetters.append(Character(inputText.lowercased()))
                 displayWord()
             }
         }
